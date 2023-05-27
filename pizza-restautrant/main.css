@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    background-color: #1E1E1E;
+    height:100vh ;
+}
+header
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    background-color: #000000;
+}
+header .logo{
+    margin-left: 70px;
+    
+
+}
+header nav ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    padding: 20px 75px;
+}
+header .social-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+header .social-icon2{
+   height: 10px;
+}
+.main-content {
+    background-image: url('images/pizza1\ 1.jpg');
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5px;
+    padding:  10px 60px;
+}
+
+.main-content .heading{
+     font-size: 50px;
+     color: #fff;
+      margin-left: 300px;
+
+}
+.main-content  hr{
+    height: 10px;
+    background-color: #F24C4C;
+    border: 2px solid #F24C4C;
+    width: 450px;
+    margin-top: 30px;
+    margin-left: 300px;
+    padding: 5px;
+}
+.main-content .para{
+    flex-basis: 50%;
+    color:#fff;
+    font-family: 'Ruda';
+    margin-top: 60px;
+    margin-left: 300px;
+    line-height: 40px;
+    font-size: 25px;
+    letter-spacing: 0.09em;
+}
+.About-us .head{
+    margin-top: 90px;
+    text-align: center;
+    color: #fff;
+
+}
+.About-us .first-line{
+    height: 10px;
+    background-color:#B62828 ;
+    border:2px solid #B62828 ;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 850px;
+    padding: 5px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-container .second-line{
+    height:4px ;
+    width: 935px;
+    background-color: #F24C4C;
+    border: 2px solid  #F24C4C;
+    margin-top: 20px;
+    margin-left: 550px;
+}
+.flex-container .para1{
+    margin-top: 40px;
+    color:#FFFFFF;
+    font-family: 'Ruda';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.09em;
+    
+
+}
